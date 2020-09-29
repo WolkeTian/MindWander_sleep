@@ -32,3 +32,6 @@ M1 ~~ M2
 
 fit <- sem(model = multipleMediation, data = fullData, se = 'bootstrap', bootstrap = 5000)
 summary(fit)
+
+# see confidence interval
+parameterEstimates(fit, boot.ci.type="bca.simple")
