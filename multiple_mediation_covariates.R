@@ -1,9 +1,9 @@
 t0 = Sys.time()
 ### model with covariates
-setwd('D:/Projects/ÓàÆ¼×ßÉñ/Ë¯ÃßºÍ×ßÉñ')
+setwd('D:/Projects/ä½™èèµ°ç¥/ç¡çœ å’Œèµ°ç¥')
 model_data <- read.csv('modelInput_covariates.csv', header = TRUE);
 head(model_data)
-# ÅÅÁĞ psqi,mw, pos, neg
+# æ’åˆ— psqi,mw, pos, neg
 
 library("lavaan")
 
